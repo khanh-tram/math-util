@@ -1,14 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.fu;
 
-/**
- *
- * @author thand
- */
+package com.fu.mathutil;
+
 public class MathUtility {
     //đây là class mô phỏng lại class Math, chứa các hàm xài chung
     //hàm xài chung, ko lưu lại điều gì ->  STATIC
@@ -30,6 +22,6 @@ public class MathUtility {
         for(int i=2; i<=n; i++)
             result *= i;
         
-        return result; //nhan tu 2 3 4 5 6 ....
+        return result; //nhan tu 2 3 4 5 6 7....
     }
 }

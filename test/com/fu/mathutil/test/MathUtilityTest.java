@@ -25,7 +25,6 @@ public class MathUtilityTest {
         assertEquals(24, MathUtility.getFactorial(4));
         assertEquals(6, MathUtility.getFactorial(3));
         assertEquals(2, MathUtility.getFactorial(2));
-        assertEquals(2, MathUtility.getFactorial(1));
         assertEquals(1, MathUtility.getFactorial(1));
         //0! là 1 tính huống cần test
         //1! là 1 tình huống khác cần test
